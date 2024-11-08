@@ -1,0 +1,81 @@
+body {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  li {
+    /* Display */
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    margin: auto 10px;
+  }
+  li:hover {
+    transition: 0.4s;
+    color: white;
+    background-color: black;
+  }
+}
+/* //////////////////////////////////////////Destionations settings/////////////////////////////////////////// */
+.destinations-box {
+  height: 20vh;
+  /* width: 60%; */
+  display: inline-flex;
+}
+.destination {
+  /* Display */
+  display: grid;
+  grid-column: 60% 40%;
+
+  /* Dimensions */
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 30px;
+
+  /* Image */
+  .destination-image {
+    img {
+      /* Dimensions */
+      width: 15vw;
+      height: 15vh;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+    }
+  }
+  h3 {
+    margin: 0px;
+    padding-left: 15px;
+  }
+}
+
+.house-types {
+  /* Dimensions */
+  width: auto;
+  height: 25vh;
+  /* Display */
+  display: inline-flex;
+}
+.kind-of-house {
+  /* Dimension */
+  height: 30vh;
+  width: 12.5vw;
+  margin: 0.5vw;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.houses {
+  /* Display */
+  display: grid;
+}
+
+.house {
+  display: grid;
+  grid-column: 30% 30% 30%;
+}
